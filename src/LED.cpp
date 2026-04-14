@@ -19,11 +19,11 @@ void Led::ligar()
     estadoPiscar = false;
 }
 
-void Led::ligar(uint32_t tempoLigado_ms) //? Quando for chamado
+void Led::ligar(uint32_t tempoLigado_ms)  
 {
-    estado = HIGH;                                            //? Vai ligar o led
-    desligadoNoMomento = false;                               //? Led não está desligado no momento
-    tempoDeterminadoParaDesligar = millis() + tempoLigado_ms; //? vai determinar o tempo pra quando irá desligar
+    estado = HIGH;                                             
+    desligadoNoMomento = false;                                
+    tempoDeterminadoParaDesligar = millis() + tempoLigado_ms; 
     estadoPiscar = false;
 }
 
@@ -35,10 +35,10 @@ void Led::desligar()
 
 void Led::funcaoDesligamento()
 {
-    if (millis() >= tempoDeterminadoParaDesligar)     //? O tempo chegou no determinado?
+    if (millis() >= tempoDeterminadoParaDesligar)     
         {
-            estado = LOW;                             //? Led apaga
-            desligadoNoMomento = true;                //? Agora o LED está desligado
+            estado = LOW;                             
+            desligadoNoMomento = true;                
         }
 }
 
@@ -114,7 +114,7 @@ void Led::setEstado(bool estado)
 
 void Led::update()
 {
-        //? Led está ligado?  //?Faça isso
+       
     if (!desligadoNoMomento) funcaoDesligamento();                         
         
     if (estadoPiscar) funcaoPiscar();
