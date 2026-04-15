@@ -43,7 +43,3 @@ LED/
 │   ├── LED.h
 │   └── LED.cpp
 └── examples/
-
----
-
-Desenvolvido por [Daniel Barbosa](https://github.com/danielbarbosadev)
