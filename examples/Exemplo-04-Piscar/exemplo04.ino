@@ -1,7 +1,7 @@
 /**
  * *Exemplo 04 - LED Piscar
  * 
- ** Esse programa vai fazer com que o LED pisque um tepo determinado de 1 Hz.
+ ** Esse programa vai fazer com que o LED pisque um tempo determinado de 1 Hz.
  */
 
 #include <Arduino.h>

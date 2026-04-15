@@ -2,7 +2,7 @@
  * *Exemplo 03 - LED Desligar
  * 
  ** Esse programa vai fazer com que o LED ascenda e permanece ligado
- * *até o usuário pressione o botão, fazendo assim com que ele seja desligado.
+ * *até que o usuário pressione o botão, fazendo assim com que ele seja desligado.
  * 
  */
 
