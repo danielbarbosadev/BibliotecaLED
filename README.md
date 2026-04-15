@@ -31,4 +31,19 @@ Esta biblioteca foi desenvolvida para otimizar o controle de LEDs em sistemas em
 * **Simuladores:** Testado e validado em ambientes como Wokwi.
 
 ---
+
+## Estrutura da biblioteca
+
+```text
+LED/
+├── library.json
+├── README.md
+├── LICENSE
+├── src/
+│   ├── LED.h
+│   └── LED.cpp
+└── examples/
+
+---
+
 Desenvolvido por [Daniel Barbosa](https://github.com/danielbarbosadev)
