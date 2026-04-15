@@ -6,7 +6,8 @@
     "authors": [
         {
             "name": "Daniel de Lima Barbosa",
-            "email": "daniel.barbosa5076@gmail.com"
+            "email": "daniel.barbosa5076@gmail.com",
+            "github": "https://github.com/danielbarbosadev"
         }
     ],
     "license" : "MIT",
